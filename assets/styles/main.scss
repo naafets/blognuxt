@@ -1,14 +1,15 @@
 @import '~bulma/sass/utilities/initial-variables';
 @import '~bulma/sass/utilities/functions';
 
-$family-sans-serif: 'Lato', sans-serif;
+$family-sans-serif: 'Montserrat', sans-serif;
 $box-radius: $radius-large;
 $section-padding: 1.5rem 0.75rem;
 $body-background-color: $white-bis;
 $navbar-background-color: $white-bis;
 $primary: #e41c4e;
 // $divider-background-color: $primary;
-$divider-background-color: lighten($primary, 40%);
+$divider-background-color: lighten($primary, 20%);
+$divider-color: $black-ter;
 $divider-font-size: $size-7;
 $tag-radius: $radius-large;
 $content-heading-weight: $weight-bold;
@@ -35,10 +36,6 @@ $hr-background-color: $primary;
 
 .activelink {
   border-bottom: 2px dotted $primary;
-}
-
-.is-divider {
-  margin-top: 8px;
 }
 
 .readmore-button {

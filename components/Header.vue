@@ -4,7 +4,7 @@
         <div class="container">
             <div class="navbar-brand">
                 <div class="navbar-item">
-                    <p class="subtitle">NUXT
+                    <p class="title is-4">NUXT
                         <span class="has-text-primary">BLOG</span>
 
                     </p>
@@ -22,6 +22,5 @@
 
 <style>
 .navbar {
-  margin-bottom: 16px;
 }
 </style>
