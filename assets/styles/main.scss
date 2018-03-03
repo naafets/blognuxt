@@ -1,0 +1,51 @@
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+
+$family-sans-serif: 'Lato', sans-serif;
+$box-radius: $radius-large;
+$section-padding: 1.5rem 0.75rem;
+$body-background-color: $white-bis;
+$navbar-background-color: $white-bis;
+$primary: #e41c4e;
+// $divider-background-color: $primary;
+$divider-background-color: lighten($primary, 40%);
+$divider-font-size: $size-7;
+$tag-radius: $radius-large;
+$content-heading-weight: $weight-bold;
+.hero {
+  border-radius: $radius-large;
+}
+$footer-background-color: $white-bis;
+
+$link: $primary;
+$link-active-border: $primary;
+$hr-margin: 1rem 0;
+$hr-background-color: $primary;
+
+@import '~bulma';
+@import '~bulma-divider';
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.activelink {
+  border-bottom: 2px dotted $primary;
+}
+
+.is-divider {
+  margin-top: 8px;
+}
+
+.readmore-button {
+  width: 200px;
+  border: 1px dotted $grey-lighter;
+}
+
+.readmore-button:hover {
+  color: $primary;
+}
